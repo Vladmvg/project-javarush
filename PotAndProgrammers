@@ -1,0 +1,10 @@
+public class Solution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int pot = sc.nextInt();
+        int progr = sc.nextInt();
+        double s = pot*1.0/progr;
+        System.out.println(s);
+
+    }
+}
